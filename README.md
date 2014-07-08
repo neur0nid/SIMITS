@@ -33,7 +33,7 @@ Mathematical Problems in Engineering, vol. 2013, Article ID 574528, 13 pages,
 2013. doi:10.1155/2013/574528
 http://www.hindawi.com/journals/mpe/2013/574528/
 
-Contact: mariomanzanovazquez@gmail.com
+Contact: espinosa@depeca.uah.es, mariomanzanovazquez@gmail.com
 
 This software have been written in C#.
 
