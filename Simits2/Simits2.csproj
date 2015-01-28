@@ -98,16 +98,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GraphControl3d\GraphControl3d.csproj">
-      <Project>{E038B4CB-A67D-4C75-9792-C8C62E46F8F8}</Project>
-      <Name>GraphControl3d</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GraphControlBasic\GraphControlBasic.csproj">
-      <Project>{46010A04-DED4-4377-BB02-9F37C2930C2C}</Project>
-      <Name>GraphControlBasic</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <COMReference Include="Microsoft.Office.Core">
       <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
       <VersionMajor>2</VersionMajor>
@@ -135,6 +125,16 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GraphControl3d\GraphControl3d.csproj">
+      <Project>{e038b4cb-a67d-4c75-9792-c8c62e46f8f8}</Project>
+      <Name>GraphControl3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GraphControlBasic\GraphControlBasic.csproj">
+      <Project>{46010a04-ded4-4377-bb02-9f37c2930c2c}</Project>
+      <Name>GraphControlBasic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
